@@ -31,7 +31,7 @@ class inputfile:
             level (string) defined the level of theory
             name (string) defined the name of inputfile
         """
-        self.charge = input("\nWha's the charge of system? ")
+        self.charge = input("\nWhat's the charge of system? ")
         self.multiplicity = input("\nWhat's the multiplicity of system? ")
         self.name = input("\nType in the name of your inputfile: ")
         ans = input("\nChoose CPU&Mem: a. 4cpu+16gb b. 8cpu+32gb ")
