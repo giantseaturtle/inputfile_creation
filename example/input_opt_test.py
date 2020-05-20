@@ -1,4 +1,4 @@
-from input_opt import input_opt
+from Gaussian_inputfile import input_opt
 
 opt_one = input_opt()
 opt_one.input_condition()

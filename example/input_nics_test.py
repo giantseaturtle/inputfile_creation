@@ -1,4 +1,4 @@
-from input_nics import input_nics
+from Gaussian_inputfile import input_nics
 
 nics_one = input_nics()
 nics_one.nics_condition()

@@ -1,4 +1,4 @@
-from input_nbo import input_nbo
+from Gaussian_inputfile import input_nbo
 
 nbo_one = input_nbo()
 nbo_one.input_condition()

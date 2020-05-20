@@ -1,4 +1,4 @@
-from input_sp import input_sp
+from Gaussian_inputfile import input_sp
 
 sp_one = input_sp()
 sp_one.input_condition()
