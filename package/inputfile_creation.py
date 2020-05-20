@@ -67,3 +67,16 @@ class inputfile:
             else:
                 break
         self.coordinate = '\n'.join(lines)
+    
+    def generate_inputfile(self):
+        """Function to generate the inputfile for various calculation.
+        
+        Args: 
+            None
+        
+        Returns: 
+            com file: preparied input file
+    
+        """
+        f = open("{}.com".format(self.name),'w')
+        f.write("$RunGauss\n%NprocLinda=1\n%Mem={}gb\n%NProcshared={}\n# {}\n\nTest\n\n{},{}\n{}".format(self.memory, self.cpu, self.level, self.charge, self.multiplicity, self.coordinate))
