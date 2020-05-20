@@ -7,9 +7,7 @@ class input_nbo(inputfile):
             multiplicity (float) define the multiplicity of system
             memory (string) requested memory for calculation
             cpu (float) requested cpu for calculation
-            funtion (string) defined function for calculation
-            basis_set (string) defined basis_set for calculation
-            dispersion (string) enable the dispersion or not
+            level (string) defined the calculation condition
             name (string) defined the name of inputfile
             coordinate (list or string) a list or string of molecule coordinates
     """

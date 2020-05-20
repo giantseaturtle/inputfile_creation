@@ -8,7 +8,7 @@ class inputfile:
             multiplicity (float) define the multiplicity of system
             memory (string) requested memory for calculation
             cpu (float) requested cpu for calculation
-            level (string) defined the level of theory
+            level (string) defined the calculation condition
             name (string) defined the name of inputfile
             coordinate (list or string) a list or string of molecule coordinates
         """
@@ -79,4 +79,4 @@ class inputfile:
     
         """
         f = open("{}.com".format(self.name),'w')
-        f.write("$RunGauss\n%NprocLinda=1\n%Mem={}gb\n%NProcshared={}\n# {}\n\nTest\n\n{},{}\n{}".format(self.memory, self.cpu, self.level, self.charge, self.multiplicity, self.coordinate))
+        f.write("$RunGauss\n%NprocLinda=1\n%Mem={}gb\n%NProcshared={}\n# {}\n\nTest\n\n{},{}\n{}\n".format(self.memory, self.cpu, self.level, self.charge, self.multiplicity, self.coordinate))
