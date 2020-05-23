@@ -1,8 +1,7 @@
-# Motivation
-This project is following the requirement of Data Scientist Nanodegree of Udacity to create a Pypi package.
-As a computational chemistry PhD student, the majority of my daily task is to create the input file and run various calculations.
+# Inputfile_creation
+This project aims to build a Pypi package to create input files for Gaussian calculations, in order to alleviate the time cost for computational chemist.
 
-Therefore, I build this project to help me generate the input files for my most frequent calculations: 
+The full name of package call "Gaussian_inputfile", focusing on generating the input files for four most frequent calculations in my daily life: 
 1. Single-point calculation 
 2. Geometry optimization calculation 
 3. NBO calculation
